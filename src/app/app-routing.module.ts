@@ -10,13 +10,13 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { CatalogsComponent } from './catalogs/catalogs.component';
 
 const routes: Routes = [
-  { path: '/', component: HomeComponent },
-  { path: '/sign-in', component: SignInComponent },
-  { path: '/sign-up', component: SignUpComponent },
-  { path: '/application/home', component: HomeComponent },
-  { path: '/application/settings', component: SettingsComponent },
-  { path: '/application/shopping-cart', component: ShoppingCartComponent },
-  { path: '/application/catalogs', component: CatalogsComponent }
+  { path: '', component: HomeComponent },
+  { path: 'sign-in', component: SignInComponent },
+  { path: 'sign-up', component: SignUpComponent },
+  { path: 'application/home', component: HomeComponent },
+  { path: 'application/settings', component: SettingsComponent },
+  { path: 'application/shopping-cart', component: ShoppingCartComponent },
+  { path: 'application/catalogs', component: CatalogsComponent }
 ];
 
 @NgModule({
